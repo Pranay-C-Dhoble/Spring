@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean class="com.collections.model.Emp" name="emp">
+        <property name="name" value="Pranay Dhoble"/>
+        <property name="phones">
+            <list>
+                <value>1234567890</value>
+                <value>0987654321</value>
+            </list>
+        </property>
+        <property name="addresses">
+            <set>
+                <value>Address 1</value>
+                <value>Address 2</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key="1" value="Java"/>
+                <entry key="2" value="Spring"/>
+            </map>
+        </property>
+        <property name="prop">
+            <props>
+                <prop key="name">Pranay</prop>
+                <prop key="surname">Dhoble</prop>
+                <prop key="brother">Swaraj</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

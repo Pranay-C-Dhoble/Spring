@@ -9,6 +9,9 @@
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/schema/p" location="$PROJECT_DIR$/src/main/java/org/example/model/Student.java" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

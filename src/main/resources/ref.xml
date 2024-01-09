@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean class="reference.model.BRef" name="bRef">
+        <property name="pqr" value="1"/>
+    </bean>
+    <bean class="reference.model.ARef" name="aRef">
+        <property name="abc" value="2"/>
+        <property name="xyz" ref="bRef"/>
+    </bean>
+</beans>
