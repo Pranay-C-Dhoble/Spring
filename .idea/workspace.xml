@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0b3d773-5167-43f5-a06a-26120b91d4b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/CollectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/model/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reference/ReferenceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reference/model/ARef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reference/model/BRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/emp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ref.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor/ConstApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor/model/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor/model/Certificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/LifeCycleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/model/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/constructor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lifecycle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reference/ReferenceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reference/ReferenceApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CollectionApp.executor": "Run",
+    "Application.ConstApp.executor": "Run",
+    "Application.LifeCycleApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ReferenceApp.executor": "Run",
     "Application.SpringApp.executor": "Run",
@@ -70,13 +72,39 @@
       <recent name="D:\Spring\src\main\java\springcore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReferenceApp">
+  <component name="RunManager" selected="Application.LifeCycleApp">
     <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collections.CollectionApp" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="constructor.ConstApp" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LifeCycleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lifecycle.LifeCycleApp" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,25 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springcore.SpringApp" />
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springcore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LifeCycleApp" />
+        <item itemvalue="Application.ConstApp" />
         <item itemvalue="Application.ReferenceApp" />
         <item itemvalue="Application.CollectionApp" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SpringApp" />
       </list>
     </recent_temporary>
   </component>
