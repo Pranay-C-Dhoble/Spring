@@ -1,5 +1,7 @@
 package lifecycle;
 
+import lifecycle.model.Annotation;
+import lifecycle.model.InterFace;
 import lifecycle.model.Method;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
@@ -13,5 +15,12 @@ public class LifeCycleApp {
 
         //Register Shutdown hook
         context.registerShutdownHook();
+        System.out.println("----------------------------------");
+        InterFace interFace = (InterFace) context.getBean("i1");
+        System.out.println(interFace);
+
+        System.out.println("----------------------------------");
+        Annotation annotation = (Annotation) context.getBean("a1");
+        System.out.println(annotation);
     }
 }
