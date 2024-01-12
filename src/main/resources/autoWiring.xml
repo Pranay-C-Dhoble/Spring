@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean class="autowiring.model.Address" name="address"> <!--// here name is nothing but the reference variable name -->
+        <property name="street" value="Demo street"/>
+        <property name="city" value="Nagpur"/>
+    </bean>
+
+<!--    <bean class="autowiring.model.Address" name="address1"> &lt;!&ndash;// here name is nothing but the reference variable name &ndash;&gt;-->
+<!--        <property name="street" value="Demo street"/>-->
+<!--        <property name="city" value="Delhi"/>-->
+<!--    </bean>-->
+
+    <bean class="autowiring.model.Emp" name="emp1" autowire="byName"/>
+</beans>
