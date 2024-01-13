@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0b3d773-5167-43f5-a06a-26120b91d4b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/autowiring/AutoWiringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/autowiring/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/autowiring/model/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/autowiringusingannotation/AutoWiringAnnotationApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/autowiringusingannotation/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/autowiringusingannotation/model/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/model/Annotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/model/InterFace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/standalone/StandAloneApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/standalone/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autoWiring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autoWiringAnnotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/standAlone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springexpressionlanguage/SpELApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springexpressionlanguage/model/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stereotypeannotation/StereotypeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stereotypeannotation/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stereotypeannotation/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spEL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stereotype.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lifecycle/LifeCycleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lifecycle/LifeCycleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lifecycle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lifecycle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/standalone/StandAloneApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/standalone/StandAloneApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +48,14 @@
     "Application.AutoWiringApp.executor": "Run",
     "Application.CollectionApp.executor": "Run",
     "Application.ConstApp.executor": "Run",
+    "Application.Demo.executor": "Run",
     "Application.LifeCycleApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ReferenceApp.executor": "Run",
+    "Application.SpELApp.executor": "Run",
     "Application.SpringApp.executor": "Run",
     "Application.StandAloneApp.executor": "Run",
+    "Application.StereotypeApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,7 +80,7 @@
       <recent name="D:\Spring\src\main\java\springcore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StandAloneApp">
+  <component name="RunManager" selected="Application.SpELApp">
     <configuration name="AutoWiringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="autowiring.AutoWiringApp" />
       <module name="Spring" />
@@ -99,38 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="constructor.ConstApp" />
+    <configuration name="SpELApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springexpressionlanguage.SpELApp" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LifeCycleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lifecycle.LifeCycleApp" />
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReferenceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reference.ReferenceApp" />
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reference.*" />
+          <option name="PATTERN" value="springexpressionlanguage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StereotypeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stereotypeannotation.StereotypeApp" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stereotypeannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpELApp" />
+        <item itemvalue="Application.StereotypeApp" />
         <item itemvalue="Application.StandAloneApp" />
         <item itemvalue="Application.AutoWiringApp" />
-        <item itemvalue="Application.LifeCycleApp" />
-        <item itemvalue="Application.ConstApp" />
-        <item itemvalue="Application.ReferenceApp" />
       </list>
     </recent_temporary>
   </component>
