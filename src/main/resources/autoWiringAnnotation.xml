@@ -10,10 +10,10 @@
         <property name="city" value="Nagpur"/>
     </bean>
 
-    <bean class="autowiringusingannotation.model.Address" name="address2">
-        <property name="street" value="Demo Street"/>
-        <property name="city" value="Nagpur"/>
-    </bean>
+<!--    <bean class="autowiringusingannotation.model.Address" name="address2">-->
+<!--        <property name="street" value="Demo Street"/>-->
+<!--        <property name="city" value="Nagpur"/>-->
+<!--    </bean>-->
 
     <bean class="autowiringusingannotation.model.Emp" name="emp1"/>
 
