@@ -15,8 +15,12 @@ public class Demo {
     //java.lang.Math is a class
     //sqrt is a method of Math class
     //25 is the argument of sqrt method
-    @Value("#{T(java.lang.Math).PI}")
+    @Value("#{T(java.lang.Math).PI}") //Here PI is a static variable of Math class
      private double a;
+    @Value("#{new java.lang.String('Pranay')}") //Here new java.lang.String('Pranay') is a object of String class
+    private String name;
+    @Value("#{8>2}") //Here 8>2 is a boolean expression
+    private boolean isActive;
 
     public int getX() {
         return x;
@@ -50,6 +54,14 @@ public class Demo {
         this.a = a;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Demo{" +
@@ -57,6 +69,8 @@ public class Demo {
                 ", y=" + y +
                 ", z=" + z +
                 ", a=" + a +
+                ", name='" + name + '\'' +
+                ", isActive=" + isActive +
                 '}';
     }
 }

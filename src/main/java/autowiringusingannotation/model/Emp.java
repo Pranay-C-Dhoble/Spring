@@ -4,13 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp {
-    @Autowired
-    @Qualifier("address2") // This is used to specify the bean name if there are multiple beans of same type
+    @Autowired //@Autowired is used to inject the dependency automatically
+    @Qualifier("address1") // This is used to specify the bean name if there are multiple beans of same type
     private Address address;
     public Address getAddress() {
         System.out.println("Inside Get Address of Emp Class");
         return address;
     }
+//    @Autowired
     public void setAddress(Address address) {
         System.out.println("Inside Set Address of Emp Class");
         this.address = address;
