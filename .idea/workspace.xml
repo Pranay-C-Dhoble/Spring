@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0b3d773-5167-43f5-a06a-26120b91d4b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springexpressionlanguage/SpELApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springexpressionlanguage/model/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stereotypeannotation/StereotypeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stereotypeannotation/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stereotypeannotation/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spEL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/stereotype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removecomponent/RemoveComponentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removecomponent/config/JavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removecomponent/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removecomponent/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removexml/RemoveMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removexml/config/JavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/removexml/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/standalone/StandAloneApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/standalone/StandAloneApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/autowiringusingannotation/model/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autowiringusingannotation/model/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springexpressionlanguage/model/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springexpressionlanguage/model/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/autoWiringAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/autoWiringAnnotation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +43,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AutoWiringAnnotationApp.executor": "Run",
-    "Application.AutoWiringApp.executor": "Run",
-    "Application.CollectionApp.executor": "Run",
-    "Application.ConstApp.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.LifeCycleApp.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ReferenceApp.executor": "Run",
-    "Application.SpELApp.executor": "Run",
-    "Application.SpringApp.executor": "Run",
-    "Application.StandAloneApp.executor": "Run",
-    "Application.StereotypeApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Spring/src/main/java/autowirngusingannotation",
-    "onboarding.tips.debug.path": "D:/Spring/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.externalResources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AutoWiringAnnotationApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoWiringApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LifeCycleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReferenceApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveComponentMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpELApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StandAloneApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StereotypeApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Spring/src/main/java/autowirngusingannotation&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Spring/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Spring\src\main\java\autowirngusingannotation" />
@@ -80,13 +84,39 @@
       <recent name="D:\Spring\src\main\java\springcore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpELApp">
-    <configuration name="AutoWiringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="autowiring.AutoWiringApp" />
+  <component name="RunManager" selected="Application.AutoWiringAnnotationApp">
+    <configuration name="AutoWiringAnnotationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="autowiringusingannotation.AutoWiringAnnotationApp" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="autowiring.*" />
+          <option name="PATTERN" value="autowiringusingannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveComponentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="removecomponent.RemoveComponentMain" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="removecomponent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="removexml.RemoveMain" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="removexml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,19 +130,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="springexpressionlanguage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StandAloneApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="standalone.StandAloneApp" />
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="standalone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoWiringAnnotationApp" />
+        <item itemvalue="Application.RemoveComponentMain" />
+        <item itemvalue="Application.RemoveMain" />
         <item itemvalue="Application.SpELApp" />
         <item itemvalue="Application.StereotypeApp" />
-        <item itemvalue="Application.StandAloneApp" />
-        <item itemvalue="Application.AutoWiringApp" />
       </list>
     </recent_temporary>
   </component>
